@@ -1,0 +1,457 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: arial,sans-serif, helvetica;
+	
+}
+
+#header{
+	position: absolute;
+	z-index: 10;
+	width: 100%;
+	position: fixed;
+	background-color: black;
+	height: 80px;
+}
+
+.navbar{
+	padding: 20px 0;
+	
+}
+.nav-logo img {
+     width: 135px;
+     margin-bottom: 5px;
+
+}
+
+.navbar-brand {
+	font-weight: 600;
+	font-size: 1.5em;
+}
+
+.navbar-dark .navbar-brand {
+	color: #dcdde1;
+}
+
+.nav-item {
+	font-weight: 600;
+	text-transform: uppercase;
+	padding-left: 20px;
+}
+
+.navbar-dark .navbar-nav .nav-item .nav-link:hover{
+	background: #dcdde1;
+	color: #262626;
+}
+@media(max-width: 1280px){
+	.navbar-dark .navbar-nav .nav-item{
+		background-color: black;
+	}
+}
+
+.main {
+	position: relative;
+	background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url("../background.jpg");
+	min-height: 100vh;
+	background-size: cover;
+	background-position: center;
+	padding: 200px 100px 100px 0;
+
+}
+
+.main h2{
+	margin: 0;
+	padding: 0;
+	font-size: 2.6em;
+	color: #dcdde1;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.main p{
+	margin-top: 1em;
+	padding: 0;
+	font-size: 1em;
+	color: #dcdde1;
+}
+
+.main .btn{
+	background: #718093;
+	color: #fff;
+	border-radius: 0;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.banner-title {
+	margin: 50px 0px 50px 0px;
+	color: #fff;
+	width: 100%;
+
+
+}
+.banner-title h1{
+	font-size: 50px;
+	margin-bottom:30px; 
+}
+.banner-title h3{
+	padding-left:0px;
+	margin-bottom:20px; 
+}
+
+#span1 {
+	color: #189AD3;
+}
+
+#span2 {
+	color: gray;
+}
+
+#span3 {
+	color: #ff8303;
+}
+
+@media(max-width: 768px){
+	.main {
+		padding: 150px 0;
+	}
+	.main h2 {
+		font-size: 2em;
+	}
+
+	.banner-title {
+	  margin: 60px 20px;
+	}
+	.banner-title h1{
+		font-size: 30px;
+	}
+
+	.banner-title h3{
+	font-size: 25px;
+
+}
+
+
+}
+/*
+@media (min-width: 800px) and (max-width: 1280px)
+{
+	.banner-title h1{
+		font-size: 30px;
+	}
+
+	.banner-title h3{
+	font-size: 25px;
+}
+
+*/
+
+.about, .services, .contact{
+	background-color: #dcdcdc;
+	padding: 30px 10px 20px 10px;
+	margin: 0;
+
+}
+.main-container {
+	width: 100%;
+}
+.contact {
+		margin-bottom: 80px;
+}
+ 
+.about-title h1{
+	font-size: 2.3em;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 30px 30px 30px 0;
+	padding: 30px 0 10px 0;
+	color: black;
+	border-radius: 25px;
+	width: 100%;
+}
+.about-title:hover h1{
+	font-size: 2.6em;
+	color: brown;
+}
+.about p{
+	font-size: 1em;
+	text-align: justify;
+	color: black;
+}
+
+#desc-about{
+	font-size: 1em;
+    font-weight: bold;
+}
+
+
+.services-title h1{
+	font-size: 2.3em;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 30px 30px 30px 0;
+    color: black;
+	padding: 30px 0 10px 0;
+	border-radius: 25px;
+	width: 100%;
+
+	
+}
+.services-title:hover h1{
+	font-size: 2.6em;
+	color: brown;
+}
+.service1 h3{
+	color: brown;
+	border-bottom: 1px solid black;
+	border-radius: 20px;
+	background-color: white;
+	padding: 10px 0 10px 0;
+}
+.service1:hover h3{
+   font-size: 28px;
+   font-weight: bold;
+   box-shadow: 5px 5px 3px #888888;
+   
+
+}
+
+
+.service1 {
+	margin-top: 30px;
+
+	text-align: center;
+
+}
+.crop-image {
+	margin-top: 30px;
+	max-height: 400px;
+	width: 100%;
+}
+
+.services-image {
+	max-height: 230px;
+	width: 100%;
+	margin-top: 20px;
+    padding: 10px 0 10px 0;
+   border-radius: 25px;
+
+  opacity: 1;
+  display: block;
+   transition: .5s ease;
+  backface-visibility: hidden;
+
+}
+
+.service2:hover .services-image{
+  opacity: 0.3;
+}
+.service2 {
+	border-radius: 25px;
+	box-shadow: 10px 10px 3px #888888;
+	height: 700px;
+	background-color: #dcdcdc;
+	
+}
+
+.service2 p{
+	font-size: 1em;
+	text-align: justify;
+	color: black;
+	padding: 20px 10px 20px 10px;
+	
+	 
+}
+.security-list {
+	text-align: left;
+	padding-left: 30px;
+	padding-top: 0;
+}
+
+
+/* STYLING FOR CONTACT PAGE*/
+.contact-title h1{
+	font-size: 2.3em;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 15px 30px 20px 0;
+	padding: 40px 0 10px 0;
+	color: black;
+	border-radius: 25px;
+	width: 100%;
+}
+.contact-title:hover h1{
+	font-size: 2.6em;
+	color: brown;
+}
+
+.contact-details {
+    margin: 20px 20px 60px 20px;
+}
+#owner{
+	padding-top: 20px;
+	font-size: 25px;
+	font-weight: bold;
+	color: black;
+
+}
+#owner:hover {
+	color: brown;
+}
+
+.contact-details h4{
+	font-weight: bold;
+	font-size: 1.2em;
+	padding-top: 20px;
+	
+}
+.contact-details ul{
+	list-style: none;
+}
+
+@media(max-width: 768px){
+.service1 h3{
+	font-size: 20px;
+	padding: 5px 0 5px 0;
+}
+.service1:hover h3{
+   font-size: 22px;
+    font-weight: bold;
+   box-shadow: 5px 5px 3px #888888;
+}
+.about-title:hover h1{
+	font-size: 2.2em;
+	color: brown;
+}
+.services-title:hover h1{
+	font-size: 2.2em;
+	color: brown;
+}
+.contact-title:hover h1{
+	font-size: 2.2em;
+	color: brown;
+}
+.about, .services, .contact{
+	background-color: #dcdcdc;
+	padding: 80px 20px 20px 20px;
+}
+
+}
+
+iframe{
+  display: block;
+  width: 100%;
+  max-height: 500px;
+  margin-left: 10px;
+  margin-top: 50px;
+  margin-right: 10px
+  border: solid 3px gray;
+
+  box-shadow: 10px 10px 5px #888888;
+  border-radius: 25px;
+}
+@media(max-width: 768px){
+	
+		.about-title h1{
+			font-size: 1.5em;
+			margin: 10px 10px 10px 0;
+			padding: 10px 0 10px 0;
+			}
+		.services-title h1{
+			font-size: 1.5em;
+			margin: 10px 10px 10px 0;
+			padding: 10px 0 10px 0;
+			}
+		.contact-title h1{
+			font-size: 1.5em;
+			margin: 10px 10px 10px 0;
+			padding: 10px 0 10px 0;
+			}
+		
+		.service2 p{
+			padding: 10px 5px 10px 5px;
+			
+		}
+		.security-list {
+			
+			padding-left: 10px;
+			
+		}
+		#owner{
+			padding-top: 20px;
+			font-size: 20px;
+			
+
+		}
+
+		.contact-details h4{
+			font-weight: bold;
+			font-size: 1em;
+			padding-top: 10px;
+			
+		}
+
+		.contact-details li {
+			font-size: 0.9em;
+		}
+}
+
+@media (min-width: 320px) and (max-width: 568px) {
+ 		.service2 {
+	            
+			height: auto;
+		}
+}
+
+ @media (max-width: 768px) {
+ 		.service2 {
+	            
+			max-height: 820px;
+		}
+}
+ @media (min-width: 768px) and (max-width: 1024px){
+ 		.service2 {
+	
+			height: auto;
+		}
+
+}
+@media (min-width: 600px) and (max-width: 1024px){
+ 		.service2 {
+	
+			height: auto;
+		}
+
+}
+ @media (min-width: 1024px) and (max-width: 1366px){
+ 		.service2 {
+	
+			height: 90%;
+		}
+}
+/*FOOTER*/
+
+.footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
+  background-color: black;
+  color: white ;
+  text-align: center;
+}
+
+.footer p{
+  margin-bottom: 0px;
+  margin-top: 4px;
+  font-size: 13px;
+}
+
+ #copyright {
+  font-size: 10px;
+ }
+/*END OF FOOTER*/
